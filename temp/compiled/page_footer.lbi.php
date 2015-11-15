@@ -9,10 +9,10 @@ if ($this->_foreach['no']['total'] > 0):
 ?>
 		<ul>
             <h2><?php echo $this->_var['help_cat']['cat_name']; ?></h2>
-        	<?php $_from = $this->_var['help_cat']['article']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'item_0_42884300_1402392482');if (count($_from)):
-    foreach ($_from AS $this->_var['item_0_42884300_1402392482']):
+        	<?php $_from = $this->_var['help_cat']['article']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'item');if (count($_from)):
+    foreach ($_from AS $this->_var['item']):
 ?>
-        	<li><a href="<?php echo $this->_var['item_0_42884300_1402392482']['url']; ?>" title="<?php echo htmlspecialchars($this->_var['item_0_42884300_1402392482']['title']); ?>" rel="nofollow"><?php echo $this->_var['item_0_42884300_1402392482']['short_title']; ?></a></li>
+        	<li><a href="<?php echo $this->_var['item']['url']; ?>" title="<?php echo htmlspecialchars($this->_var['item']['title']); ?>" rel="nofollow"><?php echo $this->_var['item']['short_title']; ?></a></li>
         	<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
        	</ul>
         <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>  
@@ -23,9 +23,8 @@ if ($this->_foreach['no']['total'] > 0):
 
 <?php endif; ?>
 <div class="footer_txt">
-  <p><span class="arial">© </span><span class="weiruan">2005-2014 ECSHOP </span> 版权所有，并保留所有权利。版权所有，并保留所有权利。 常年法律顾问：上海华宏律师事务所</p>
-  <p class="lightGrey">上海市普陀区中山北路2911号中关村科技大厦2402        Tel: 4000 021 758 </p>
-	<p><a href="http://www.ecmoban.com"><img src='themes/ecmoban_lvmore2014/images/ecmoban.gif' /></a></p>
+  <p><span class="arial">© </span><span class="weiruan">2015-2020 帽子饰法 </span> 版权所有，并保留所有权利。版权所有，并保留所有权利。</p>
+  <p class="lightGrey">广东深圳        Tel: 15277015835 </p>
 </div>
 
  
@@ -59,12 +58,12 @@ if ($this->_foreach['no']['total'] > 0):
   <div class="bNavList clearfix">
     <div class="f_l"> 
       <?php if ($this->_var['navigator_list']['bottom']): ?> 
-      <?php $_from = $this->_var['navigator_list']['bottom']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav_0_42951200_1402392482');$this->_foreach['nav_bottom_list'] = array('total' => count($_from), 'iteration' => 0);
+      <?php $_from = $this->_var['navigator_list']['bottom']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav_0_44261600_1447600046');$this->_foreach['nav_bottom_list'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['nav_bottom_list']['total'] > 0):
-    foreach ($_from AS $this->_var['nav_0_42951200_1402392482']):
+    foreach ($_from AS $this->_var['nav_0_44261600_1447600046']):
         $this->_foreach['nav_bottom_list']['iteration']++;
 ?> 
-      <a href="<?php echo $this->_var['nav_0_42951200_1402392482']['url']; ?>" <?php if ($this->_var['nav_0_42951200_1402392482']['opennew'] == 1): ?> target="_blank" <?php endif; ?>><?php echo $this->_var['nav_0_42951200_1402392482']['name']; ?></a> 
+      <a href="<?php echo $this->_var['nav_0_44261600_1447600046']['url']; ?>" <?php if ($this->_var['nav_0_44261600_1447600046']['opennew'] == 1): ?> target="_blank" <?php endif; ?>><?php echo $this->_var['nav_0_44261600_1447600046']['name']; ?></a> 
       <?php if (! ($this->_foreach['nav_bottom_list']['iteration'] == $this->_foreach['nav_bottom_list']['total'])): ?> 
       - 
       <?php endif; ?> 
@@ -164,7 +163,8 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
     foreach ($_from AS $this->_var['im']):
 ?> 
         <?php if ($this->_var['im']): ?>
-        <li><a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=<?php echo $this->_var['im']; ?>&amp;Site=<?php echo $this->_var['shop_name']; ?>&amp;Menu=yes" target="_blank"><img src="http://wpa.qq.com/pa?p=1:<?php echo $this->_var['im']; ?>:4" height="16" border="0" alt="QQ" /> <?php echo $this->_var['im']; ?></a> </li>
+        <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=594971679&site=qq&menu=yes">
+          <img src="http://wpa.qq.com/pa?p=1:594971679:4" height="16" border="0" alt="QQ" /> &nbsp;594971679</a></li>
         <?php endif; ?> 
         <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?> 
         <?php $_from = $this->_var['ww']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'im');if (count($_from)):

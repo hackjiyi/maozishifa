@@ -17,9 +17,17 @@
 {insert_scripts files='common.js,index.js'}
 </head>
 <body class="index_page">
+<div class='AreaR'> 
+<!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
+ 
+ 
+<!-- TemplateBeginEditable name="促销商品区域" -->
+<!-- TemplateEndEditable -->
+ 
+</div>
 <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
 
-<div class="block clearfix">
+<div class="block clearfix" >
 <div class="AreaL">
 
 <!-- #BeginLibraryItem "/library/category_tree_index.lbi" -->
@@ -51,21 +59,17 @@
     <!--AD end-->
   </div>
 
-<div style="float:right; width:884px;"> 
-<!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
- 
- 
-<!-- TemplateBeginEditable name="促销商品区域" -->
-<!-- TemplateEndEditable -->
- 
-</div>
- 
-  
     <div class="blank"></div> 
  
   
   <div class="goodsBox_1">
   <!-- TemplateBeginEditable name="首页右侧区域" -->
+<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
+
+{insert name='ads' id=$ads_id num=$ads_num}
+
+<div class="blank"></div>
+ <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable -->
   
   <!-- TemplateBeginEditable name="全宽行" -->

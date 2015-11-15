@@ -41,13 +41,13 @@ catch (e) {
      
     </script>
 
-<?php echo $this->smarty_insert_scripts(array('files'=>'transport.js,utils.js')); ?> 
+<?php echo $this->smarty_insert_scripts(array('files'=>'transport.js,utils.js,jquery.js')); ?> 
 
 <div class="TopNav">
 	<div class="Center1100px">
         <span class="f_r">
         ｜ <a href="./help.php?id=112">帮助中心</a> 
-        ｜ <img align="absmiddle" src="themes/ecmoban_lvmore2014/images/icon_tel.gif"> <font class="f_red">400-000-0000</font>
+        ｜ <img align="absmiddle" src="themes/ecmoban_lvmore2014/images/icon_tel.gif"> <font class="f_red">15277015835</font>
         </span>
         <div class="f_r showflowcat">
         ｜ <img align="absmiddle" src="themes/ecmoban_lvmore2014/images/icon_cart.gif"> <a href="flow.php">购物车</a>
@@ -87,7 +87,7 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
             </form>
             
             </div>
-            <div class="hotwords clearfix"><strong>热门搜索：</strong><a href="search.php?keywords=%E6%9D%80%E6%89%8B%E5%8C%85" target="_blank">杀手包</a><a href="search.php?keywords=neverfull" target="_blank">neverfull</a><a href="search.php?keywords=2.55" target="_blank">2.55</a><a href="search.php?keywords=%E9%93%82%E9%87%91%E5%8C%85" target="_blank">铂金包</a><a href="search.php?keywords=%E5%A4%8F%E6%97%A5%E4%BF%83%E9%94%80" target="_blank">夏日促销</a><a href="search.php?keywords=%E8%93%9D%E6%B0%94%E7%90%83" target="_blank">蓝气球</a></div>
+            <div class="hotwords clearfix"><strong>热门搜索：</strong><a href="search.php?encode=帽子" target="_blank">新款帽子</a></div>
         </div>
 </div>
 

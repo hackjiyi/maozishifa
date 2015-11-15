@@ -1,12 +1,12 @@
 ﻿document.write("<div class='QQbox' id='divQQbox' >");
 document.write("<div class='Qlist' id='divOnline' onmouseout='hideMsgBox(event);' style='display : none;'>");
 document.write("<div class='t'></div>");
-document.write("<div class='infobox'>我们营业的时间<br>9:00-18:00</div>");
+document.write("<div class='infobox'>我们营业的时间<br>9:00-22:00</div>");
 document.write("<div class='con'>");
 
 document.write("<ul>");
 
-document.write("<li class=odd><a href='http://wpa.qq.com/msgrd?V=1&amp;Uin=123456&amp;Site=QQ咨询&amp;Menu=yes' target='_blank'><img src=' http://wpa.qq.com/pa?p=1:123456:4'  border='0' alt='QQ' />QQ咨询</a></li>");
+document.write("<li class=odd><img  style='CURSOR: pointer' onclick='javascript:window.open(\'http://b.qq.com/webc.htm?new=0&sid=594971679&o=帽子饰法&q=7\', \'_blank\', \'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no\');'  border='0' SRC=http://wpa.qq.com/pa?p=1:594971679:7 alt='欢迎咨询'></li>");
 
 document.write('<li><img src="../qq/themes/ecmoban_lvmore2014/qq/images/msn.gif" width="18" height="17" border="0" alt="MSN" /> <a href="msnim:chat?contact=MSN帐号">MSN咨询</a></li>');
 
@@ -23,7 +23,7 @@ document.write("<div class='b'></div>");
 
 document.write("</div>");
 
-document.write("<div id='divMenu' onmouseover='OnlineOver();'><img src='../qq/themes/ecmoban_lvmore2014/qq/images/qq_1.gif' class='press' alt='在线咨询'></div>");
+document.write("<div id='divMenu' onmouseover='OnlineOver();'><img src='../qq/themes/ecmoban_lvmore2014/qq/images/qq_1.gif' class='press' alt='在线咨询'>dsafdasf</div>");
 
 document.write("</div>");
 

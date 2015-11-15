@@ -2,32 +2,6 @@
 $data = array (
   0 => 
   array (
-    'cat_id' => '261',
-    'cat_name' => 'CARTIER卡地亚',
-    'measure_unit' => '',
-    'parent_id' => '0',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '1',
-    'goods_num' => 0,
-  ),
-  1 => 
-  array (
-    'cat_id' => '221',
-    'cat_name' => 'GUCCI古驰',
-    'measure_unit' => '',
-    'parent_id' => '0',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '1',
-    'goods_num' => 0,
-  ),
-  2 => 
-  array (
     'cat_id' => '237',
     'cat_name' => 'BURBERRY巴宝莉',
     'measure_unit' => '',
@@ -39,7 +13,7 @@ $data = array (
     'has_children' => '1',
     'goods_num' => 0,
   ),
-  3 => 
+  1 => 
   array (
     'cat_id' => '244',
     'cat_name' => 'BV宝缇嘉',
@@ -52,10 +26,36 @@ $data = array (
     'has_children' => '1',
     'goods_num' => 0,
   ),
+  2 => 
+  array (
+    'cat_id' => '261',
+    'cat_name' => 'CARTIER卡地亚',
+    'measure_unit' => '',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '1',
+    'goods_num' => 0,
+  ),
+  3 => 
+  array (
+    'cat_id' => '277',
+    'cat_name' => '女神',
+    'measure_unit' => '',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '1',
+    'goods_num' => 0,
+  ),
   4 => 
   array (
-    'cat_id' => '257',
-    'cat_name' => 'DIOR迪奥',
+    'cat_id' => '221',
+    'cat_name' => 'GUCCI古驰',
     'measure_unit' => '',
     'parent_id' => '0',
     'is_show' => '1',
@@ -80,19 +80,6 @@ $data = array (
   ),
   6 => 
   array (
-    'cat_id' => '212',
-    'cat_name' => 'LV路易威登',
-    'measure_unit' => '件',
-    'parent_id' => '0',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '5',
-    'sort_order' => '50',
-    'has_children' => '1',
-    'goods_num' => '1',
-  ),
-  7 => 
-  array (
     'cat_id' => '229',
     'cat_name' => 'HERMES爱马仕',
     'measure_unit' => '',
@@ -104,7 +91,7 @@ $data = array (
     'has_children' => '1',
     'goods_num' => 0,
   ),
-  8 => 
+  7 => 
   array (
     'cat_id' => '265',
     'cat_name' => 'TODS托德斯',
@@ -117,7 +104,33 @@ $data = array (
     'has_children' => '1',
     'goods_num' => 0,
   ),
+  8 => 
+  array (
+    'cat_id' => '257',
+    'cat_name' => 'DIOR迪奥',
+    'measure_unit' => '',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '1',
+    'goods_num' => 0,
+  ),
   9 => 
+  array (
+    'cat_id' => '212',
+    'cat_name' => 'LV路易威登',
+    'measure_unit' => '件',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '5',
+    'sort_order' => '50',
+    'has_children' => '1',
+    'goods_num' => 0,
+  ),
+  10 => 
   array (
     'cat_id' => '271',
     'cat_name' => 'LV路易威登',
@@ -130,7 +143,7 @@ $data = array (
     'has_children' => '7',
     'goods_num' => 0,
   ),
-  10 => 
+  11 => 
   array (
     'cat_id' => '272',
     'cat_name' => 'GUCCI古驰',
@@ -140,10 +153,10 @@ $data = array (
     'show_in_nav' => '0',
     'grade' => '0',
     'sort_order' => '50',
-    'has_children' => '7',
+    'has_children' => '6',
     'goods_num' => 0,
   ),
-  11 => 
+  12 => 
   array (
     'cat_id' => '276',
     'cat_name' => 'HERMES爱马仕',
@@ -156,7 +169,7 @@ $data = array (
     'has_children' => '7',
     'goods_num' => 0,
   ),
-  12 => 
+  13 => 
   array (
     'cat_id' => '273',
     'cat_name' => 'BURBERRY巴宝莉',
@@ -169,7 +182,7 @@ $data = array (
     'has_children' => '6',
     'goods_num' => 0,
   ),
-  13 => 
+  14 => 
   array (
     'cat_id' => '268',
     'cat_name' => 'BV宝缇嘉',
@@ -182,7 +195,7 @@ $data = array (
     'has_children' => '6',
     'goods_num' => 0,
   ),
-  14 => 
+  15 => 
   array (
     'cat_id' => '270',
     'cat_name' => 'PRADA普拉达',
@@ -195,7 +208,7 @@ $data = array (
     'has_children' => '5',
     'goods_num' => 0,
   ),
-  15 => 
+  16 => 
   array (
     'cat_id' => '269',
     'cat_name' => 'DIOR迪奥',
@@ -205,10 +218,10 @@ $data = array (
     'show_in_nav' => '0',
     'grade' => '0',
     'sort_order' => '50',
-    'has_children' => '3',
+    'has_children' => '2',
     'goods_num' => 0,
   ),
-  16 => 
+  17 => 
   array (
     'cat_id' => '275',
     'cat_name' => 'CARTIER卡地亚',
@@ -221,7 +234,7 @@ $data = array (
     'has_children' => '3',
     'goods_num' => 0,
   ),
-  17 => 
+  18 => 
   array (
     'cat_id' => '274',
     'cat_name' => 'TODS托德斯',
@@ -234,7 +247,7 @@ $data = array (
     'has_children' => '2',
     'goods_num' => 0,
   ),
-  18 => 
+  19 => 
   array (
     'cat_id' => '250',
     'cat_name' => 'BV太阳镜',
@@ -247,7 +260,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  19 => 
+  20 => 
   array (
     'cat_id' => '247',
     'cat_name' => 'BV钱包',
@@ -260,7 +273,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  20 => 
+  21 => 
   array (
     'cat_id' => '248',
     'cat_name' => 'BV皮带',
@@ -273,7 +286,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  21 => 
+  22 => 
   array (
     'cat_id' => '245',
     'cat_name' => 'BV女包',
@@ -286,7 +299,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  22 => 
+  23 => 
   array (
     'cat_id' => '249',
     'cat_name' => 'BV鞋子',
@@ -299,7 +312,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  23 => 
+  24 => 
   array (
     'cat_id' => '246',
     'cat_name' => 'BV男包',
@@ -310,25 +323,12 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  24 => 
-  array (
-    'cat_id' => '259',
-    'cat_name' => 'DIOR钱包',
-    'measure_unit' => '',
-    'parent_id' => '269',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
     'goods_num' => 0,
   ),
   25 => 
   array (
-    'cat_id' => '260',
-    'cat_name' => 'DIOR太阳镜',
+    'cat_id' => '259',
+    'cat_name' => 'DIOR钱包',
     'measure_unit' => '',
     'parent_id' => '269',
     'is_show' => '1',
@@ -349,7 +349,7 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
-    'goods_num' => '1',
+    'goods_num' => 0,
   ),
   27 => 
   array (
@@ -379,8 +379,8 @@ $data = array (
   ),
   29 => 
   array (
-    'cat_id' => '256',
-    'cat_name' => 'PRADA太阳镜',
+    'cat_id' => '255',
+    'cat_name' => 'PRADA鞋子',
     'measure_unit' => '',
     'parent_id' => '270',
     'is_show' => '1',
@@ -392,19 +392,6 @@ $data = array (
   ),
   30 => 
   array (
-    'cat_id' => '255',
-    'cat_name' => 'PRADA鞋子',
-    'measure_unit' => '',
-    'parent_id' => '270',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  31 => 
-  array (
     'cat_id' => '252',
     'cat_name' => 'PRADA女包',
     'measure_unit' => '',
@@ -414,40 +401,14 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
-    'goods_num' => '2',
+    'goods_num' => 0,
   ),
-  32 => 
+  31 => 
   array (
-    'cat_id' => '217',
-    'cat_name' => 'LV鞋子',
+    'cat_id' => '256',
+    'cat_name' => 'PRADA太阳镜',
     'measure_unit' => '',
-    'parent_id' => '271',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '2',
-  ),
-  33 => 
-  array (
-    'cat_id' => '214',
-    'cat_name' => 'LV男包',
-    'measure_unit' => '件',
-    'parent_id' => '271',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  34 => 
-  array (
-    'cat_id' => '218',
-    'cat_name' => 'LV配饰',
-    'measure_unit' => '',
-    'parent_id' => '271',
+    'parent_id' => '270',
     'is_show' => '1',
     'show_in_nav' => '0',
     'grade' => '0',
@@ -455,20 +416,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  35 => 
-  array (
-    'cat_id' => '215',
-    'cat_name' => 'LV钱包',
-    'measure_unit' => '',
-    'parent_id' => '271',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  36 => 
+  32 => 
   array (
     'cat_id' => '220',
     'cat_name' => 'LV太阳镜',
@@ -481,7 +429,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  37 => 
+  33 => 
   array (
     'cat_id' => '216',
     'cat_name' => 'LV皮带',
@@ -492,9 +440,9 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
-    'goods_num' => '1',
+    'goods_num' => 0,
   ),
-  38 => 
+  34 => 
   array (
     'cat_id' => '213',
     'cat_name' => 'LV女包',
@@ -507,25 +455,12 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '5',
   ),
-  39 => 
+  35 => 
   array (
-    'cat_id' => '227',
-    'cat_name' => 'GUCCI鞋子',
+    'cat_id' => '217',
+    'cat_name' => 'LV鞋子',
     'measure_unit' => '',
-    'parent_id' => '272',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '2',
-  ),
-  40 => 
-  array (
-    'cat_id' => '224',
-    'cat_name' => 'GUCCI钱包',
-    'measure_unit' => '',
-    'parent_id' => '272',
+    'parent_id' => '271',
     'is_show' => '1',
     'show_in_nav' => '0',
     'grade' => '0',
@@ -533,7 +468,46 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  41 => 
+  36 => 
+  array (
+    'cat_id' => '214',
+    'cat_name' => 'LV男包',
+    'measure_unit' => '件',
+    'parent_id' => '271',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  37 => 
+  array (
+    'cat_id' => '218',
+    'cat_name' => 'LV配饰',
+    'measure_unit' => '',
+    'parent_id' => '271',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  38 => 
+  array (
+    'cat_id' => '215',
+    'cat_name' => 'LV钱包',
+    'measure_unit' => '',
+    'parent_id' => '271',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  39 => 
   array (
     'cat_id' => '228',
     'cat_name' => 'GUCCI太阳镜',
@@ -546,7 +520,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  42 => 
+  40 => 
   array (
     'cat_id' => '225',
     'cat_name' => 'GUCCI皮带',
@@ -559,20 +533,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  43 => 
-  array (
-    'cat_id' => '222',
-    'cat_name' => 'GUCCI女包',
-    'measure_unit' => '',
-    'parent_id' => '272',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  44 => 
+  41 => 
   array (
     'cat_id' => '226',
     'cat_name' => 'GUCCI配饰',
@@ -585,7 +546,33 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  45 => 
+  42 => 
+  array (
+    'cat_id' => '222',
+    'cat_name' => 'GUCCI女包',
+    'measure_unit' => '',
+    'parent_id' => '272',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  43 => 
+  array (
+    'cat_id' => '227',
+    'cat_name' => 'GUCCI鞋子',
+    'measure_unit' => '',
+    'parent_id' => '272',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  44 => 
   array (
     'cat_id' => '223',
     'cat_name' => 'GUCCI男包',
@@ -598,33 +585,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  46 => 
-  array (
-    'cat_id' => '243',
-    'cat_name' => 'BURBERRY太阳镜',
-    'measure_unit' => '',
-    'parent_id' => '273',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  47 => 
-  array (
-    'cat_id' => '240',
-    'cat_name' => 'BURBERRY鞋子',
-    'measure_unit' => '',
-    'parent_id' => '273',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  48 => 
+  45 => 
   array (
     'cat_id' => '241',
     'cat_name' => 'BURBERRY皮带',
@@ -637,7 +598,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  49 => 
+  46 => 
   array (
     'cat_id' => '238',
     'cat_name' => 'BURBERRY女包',
@@ -650,7 +611,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  50 => 
+  47 => 
   array (
     'cat_id' => '242',
     'cat_name' => 'BURBERRY服饰',
@@ -663,7 +624,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  51 => 
+  48 => 
   array (
     'cat_id' => '239',
     'cat_name' => 'BURBERRY男包',
@@ -674,7 +635,46 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
-    'goods_num' => '1',
+    'goods_num' => 0,
+  ),
+  49 => 
+  array (
+    'cat_id' => '243',
+    'cat_name' => 'BURBERRY太阳镜',
+    'measure_unit' => '',
+    'parent_id' => '273',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  50 => 
+  array (
+    'cat_id' => '240',
+    'cat_name' => 'BURBERRY鞋子',
+    'measure_unit' => '',
+    'parent_id' => '273',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  51 => 
+  array (
+    'cat_id' => '267',
+    'cat_name' => 'TODS太阳镜',
+    'measure_unit' => '',
+    'parent_id' => '274',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
   ),
   52 => 
   array (
@@ -691,32 +691,6 @@ $data = array (
   ),
   53 => 
   array (
-    'cat_id' => '267',
-    'cat_name' => 'TODS太阳镜',
-    'measure_unit' => '',
-    'parent_id' => '274',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  54 => 
-  array (
-    'cat_id' => '263',
-    'cat_name' => 'CARTIER皮带',
-    'measure_unit' => '',
-    'parent_id' => '275',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  55 => 
-  array (
     'cat_id' => '264',
     'cat_name' => 'CARTIER太阳镜',
     'measure_unit' => '',
@@ -726,9 +700,9 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
-    'goods_num' => '1',
+    'goods_num' => 0,
   ),
-  56 => 
+  54 => 
   array (
     'cat_id' => '262',
     'cat_name' => 'CARTIER腕表',
@@ -741,7 +715,20 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  57 => 
+  55 => 
+  array (
+    'cat_id' => '263',
+    'cat_name' => 'CARTIER皮带',
+    'measure_unit' => '',
+    'parent_id' => '275',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  56 => 
   array (
     'cat_id' => '234',
     'cat_name' => 'HERMES皮带',
@@ -754,7 +741,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  58 => 
+  57 => 
   array (
     'cat_id' => '231',
     'cat_name' => 'HERMES男包',
@@ -767,7 +754,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  59 => 
+  58 => 
   array (
     'cat_id' => '235',
     'cat_name' => 'HERMES配饰',
@@ -780,7 +767,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  60 => 
+  59 => 
   array (
     'cat_id' => '232',
     'cat_name' => 'HERMES钱包',
@@ -791,9 +778,9 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
-    'goods_num' => '1',
+    'goods_num' => 0,
   ),
-  61 => 
+  60 => 
   array (
     'cat_id' => '236',
     'cat_name' => 'HERMES腕表',
@@ -806,7 +793,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  62 => 
+  61 => 
   array (
     'cat_id' => '233',
     'cat_name' => 'HERMES鞋子',
@@ -817,9 +804,9 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
-    'goods_num' => '1',
+    'goods_num' => 0,
   ),
-  63 => 
+  62 => 
   array (
     'cat_id' => '230',
     'cat_name' => 'HERMES女包',
@@ -831,6 +818,19 @@ $data = array (
     'sort_order' => '50',
     'has_children' => '0',
     'goods_num' => 0,
+  ),
+  63 => 
+  array (
+    'cat_id' => '260',
+    'cat_name' => '耳钉',
+    'measure_unit' => '',
+    'parent_id' => '277',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
   ),
 );
 ?>

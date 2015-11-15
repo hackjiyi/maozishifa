@@ -18,9 +18,8 @@
 
 <!--{/if}-->
 <div class="footer_txt">
-  <p><span class="arial">© </span><span class="weiruan">2005-2014 ECSHOP </span> 版权所有，并保留所有权利。版权所有，并保留所有权利。 常年法律顾问：上海华宏律师事务所</p>
-  <p class="lightGrey">上海市普陀区中山北路2911号中关村科技大厦2402        Tel: 4000 021 758 </p>
-	<p><a href="http://www.ecmoban.com"><img src='images/ecmoban.gif' /></a></p>
+  <p><span class="arial">© </span><span class="weiruan">2015-2020 帽子饰法 </span> 版权所有，并保留所有权利。版权所有，并保留所有权利。</p>
+  <p class="lightGrey">广东深圳        Tel: 15277015835 </p>
 </div>
 
 <!--友情链接 start--> 
@@ -134,7 +133,8 @@
         
         <!-- QQ 号码 {foreach from=$qq item=im} --> 
         <!-- {if $im} -->
-        <li><a href="http://wpa.qq.com/msgrd?V=1&amp;Uin={$im}&amp;Site={$shop_name}&amp;Menu=yes" target="_blank"><img src="http://wpa.qq.com/pa?p=1:{$im}:4" height="16" border="0" alt="QQ" /> {$im}</a> </li>
+        <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=594971679&site=qq&menu=yes">
+          <img src="http://wpa.qq.com/pa?p=1:594971679:4" height="16" border="0" alt="QQ" /> &nbsp;594971679</a></li>
         <!-- {/if} --> 
         <!-- {/foreach} 结束QQ号码 --> 
         <!-- 淘宝旺旺 {foreach from=$ww item=im} --> 
